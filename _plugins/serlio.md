@@ -49,7 +49,7 @@ examples:
     - title: Favela Maya Project
       link: https://github.com/Esri/serlio/releases/download/v1.1.0/favela_maya_project_v2.zip
     - title: palladio_angkor_thom_instructions
-      link: ../assets/files/serlio_favela_instructions.txt
+      link: ./assets/files/serlio_favela_instructions.txt
 
     images:
       - image-name: serlio_ex_1_1.png

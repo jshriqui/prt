@@ -52,7 +52,7 @@ examples:
       - title: Houdini and CityEngine projects
         link: https://github.com/Esri/palladio/releases/download/v1.6.0/Palladio_Example_Angkor_Thom_v2.zip
       - title: Instruction
-        link: ../assets/files/palladio_angkor_thom_instructions.txt
+        link: ./assets/files/palladio_angkor_thom_instructions.txt
 
     images:
       - image-name: palladio_ex_1_1.jpg
@@ -106,9 +106,6 @@ examples:
 
     images:
       - image-name: palladio_ex_5_1.jpg
-
-
-
 
 
 

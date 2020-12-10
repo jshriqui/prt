@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" />
+    <title></title>
+    <link rel="stylesheet" href="/prts/assets/css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script type="text/javascript" src="/prts/assets/js/main.js"></script>
   </head>
   <body>
     <nav class="horizontal center">
@@ -18,7 +18,7 @@
     <div class="subnav darkgrey">
       <div class="subnav-wrapper horizontal stretched">
         <div class="subnav-left">
-          <a class="subnav-title-link vertical " href="{{ site.baseurl }}"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
+          <a class="subnav-title-link vertical " href="/prts/"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
           <svg class="menu-dropdown" onclick="openMenu()" xmlns="http://www.w3.org/2000/svg" width="49" height="45" viewBox="0 0 49 45">
             <g id="Group_1" data-name="Group 1" transform="translate(-169 -225)">
               <rect id="Rectangle_1" data-name="Rectangle 1" width="49" height="45" transform="translate(169 225)" fill="rgba(0,0,0,0)"/>
@@ -28,12 +28,28 @@
 
         </div>
         <div class="horizontal stretched subnav-link-wrapper">
-          {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
-          {% for item in pluginsinorder %}
-            {% if item.draft == false %}
-              <a class="subnav-link vertical center" href="{{ item.name | downcase }}"><p class="white">{{item.platform}}</p></a>
-            {% endif %}
-          {% endfor %}
+          
+          
+            
+              <a class="subnav-link vertical center" href="palladio"><p class="white">Houdini</p></a>
+            
+          
+            
+              <a class="subnav-link vertical center" href="serlio"><p class="white">Maya</p></a>
+            
+          
+            
+              <a class="subnav-link vertical center" href="vitruvio"><p class="white">Unreal</p></a>
+            
+          
+            
+              <a class="subnav-link vertical center" href="pyprt"><p class="white">Python</p></a>
+            
+          
+            
+              <a class="subnav-link vertical center" href="cityenginesdk"><p class="white">C++</p></a>
+            
+          
         </div>
       </div>
     </div>
@@ -41,19 +57,10 @@
     <section class="hero vertical just-centered">
       <div class="content horizontal">
         <div class="half vertical just-centered">
-          <h1 class="hero-text">{{ page.hero-text }}</h1>
+          <h1 class="hero-text"></h1>
         </div>
         <div class="half horizontal just-centered aspect">
-          {% for item in page.hero-content %}
-          {% if item.type == "video"  %}
-            <div class="video-container flex-grow">
-              <iframe src="https://www.youtube.com/embed/{{ item.name | append: '?wmode=transparent' }}" frameborder="0" allowfullscreen></iframe>
-            </div>
-          {% endif %}
-          {% if item.type == "image" %}
-            <img class="image-shadow" src="{{ site.baseurl | relative_url }}/assets/img/{{ item.name }}"/>
-          {% endif %}
-          {% endfor %}
+          
           <!---->
         </div>
       </div>
@@ -62,7 +69,7 @@
     <section class="intro-section">
       <div class="content">
         <div class="left-column">
-          <p class="white">{{ page.description }}</p>
+          <p class="white"></p>
         </div>
       </div>
     </section>
@@ -72,25 +79,28 @@
       <div class="content vertical center">
         <h2 class="subtitle bottom-margin-70">CityEngine Plugins</h2>
         <div class="horizontal center">
-          {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
-          {% for item in pluginsinorder %}
-            {% if item.draft == false %}
-              {% if item.fullpreview == false %}
-              <div class="horizontal small-teaser">
-                  <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
-                  <div class="vertical">
-                      <h4 class="subtitle3">{{ item.platform }}</h4>
-                      <h3 class="subtitle2">{{ item.title }}</h3>
-                      <a class="link" href="{{ item.link | downcase }}">
-                          <a href="{{item.name | downcase }}" class="text-small">
-                              More<span> →</span>
-                          </a>
-                      </a>
-                  </div>
-              </div>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
+          
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
+            
+              
+            
+          
         </div>
       </div>
     </section>
@@ -99,35 +109,143 @@
     <section class="top-padding-150">
       <div class="content flex vertical center">
         <div flex horizontal>
-        {% assign pluginsinorder = site.plugins | sort:'order-of-appearance' %}
-        {% for item in pluginsinorder %}
-          {% if item.draft == false %}
-            {% if item.fullpreview == true %}
-            <div class="content {% cycle '', 'reverse' %} horizontal bottom-margin-100">
+        
+        
+          
+            
+            <div class="content  horizontal bottom-margin-100">
                 <div class="half vertical just-centered">
-                    <img class="image-shadow" src="{{ site.baseurl }}/assets/img/{{item.teaser-image}}"/>
+                    <img class="image-shadow" src="/prts/assets/img/palladio_ex_5_1.jpg"/>
                 </div>
                 <div class="half vertical just-centered">
                     <div class="logo-title">
-                        <img src="{{ site.baseurl }}/assets/img/{{item.logo}}" class="inline-icon"/>
+                        <img src="/prts/assets/img/palladio.png" class="inline-icon"/>
                         <div class="vertical">
-                            <h4 class="subtitle3">{{item.platform}}</h4>
-                            <h3 class="subtitle">{{item.hero-title}}</h3>
+                            <h4 class="subtitle3">Houdini</h4>
+                            <h3 class="subtitle">Palladio</h3>
                         </div>
                     </div>
-                    <p>{{item.description}}</p>
+                    <p>Palladio is a plugin for SideFX Houdini. It provides operator nodes which enable the execution of CityEngine ‘rules’ within Houdini networks. Therefore, a 3D environment artist does not have to leave their familiar Houdini toolset anymore to make use of CityEngine’s procedural modeling power.</p>
                     <a class="link">
                         <p class="link text">
-                          <a href="{{item.name | downcase }}">
+                          <a href="palladio">
                               More<span> →</span>
                           </a>
                         </p>
                     </a>
                 </div>
             </div>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
+            
+          
+        
+          
+            
+            <div class="content reverse horizontal bottom-margin-100">
+                <div class="half vertical just-centered">
+                    <img class="image-shadow" src="/prts/assets/img/serlio_ex_1_3.png"/>
+                </div>
+                <div class="half vertical just-centered">
+                    <div class="logo-title">
+                        <img src="/prts/assets/img/serlio.png" class="inline-icon"/>
+                        <div class="vertical">
+                            <h4 class="subtitle3">Maya</h4>
+                            <h3 class="subtitle">Serlio</h3>
+                        </div>
+                    </div>
+                    <p>Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine ‘rules’ within a Maya scene. Therefore, a 3D environment artist does not have to leave their familiar Maya toolset anymore to make use of CityEngine’s procedural modeling power.</p>
+                    <a class="link">
+                        <p class="link text">
+                          <a href="serlio">
+                              More<span> →</span>
+                          </a>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            
+          
+        
+          
+            
+            <div class="content  horizontal bottom-margin-100">
+                <div class="half vertical just-centered">
+                    <img class="image-shadow" src="/prts/assets/img/pyprt-teaser-image.jpg"/>
+                </div>
+                <div class="half vertical just-centered">
+                    <div class="logo-title">
+                        <img src="/prts/assets/img/vitruvio.png" class="inline-icon"/>
+                        <div class="vertical">
+                            <h4 class="subtitle3">Unreal</h4>
+                            <h3 class="subtitle">Vitruvio</h3>
+                        </div>
+                    </div>
+                    <p>Vitruvio is an Unreal Engine 4 (UE4) plugin which enables the use of ArcGIS CityEngine shape grammar rules in UE4 for the generation of procedural buildings.</p>
+                    <a class="link">
+                        <p class="link text">
+                          <a href="vitruvio">
+                              More<span> →</span>
+                          </a>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            
+          
+        
+          
+            
+            <div class="content reverse horizontal bottom-margin-100">
+                <div class="half vertical just-centered">
+                    <img class="image-shadow" src="/prts/assets/img/pyprt-teaser-image.jpg"/>
+                </div>
+                <div class="half vertical just-centered">
+                    <div class="logo-title">
+                        <img src="/prts/assets/img/pyprt.png" class="inline-icon"/>
+                        <div class="vertical">
+                            <h4 class="subtitle3">Python</h4>
+                            <h3 class="subtitle">PyPRT</h3>
+                        </div>
+                    </div>
+                    <p>PyPRT is a Python binding for PRT (“Procedural Runtime”). It enables the execution of CityEngine CGA rules within Python. Using PyPRT, the generation of 3D content in Python is greatly simplified.</p>
+                    <a class="link">
+                        <p class="link text">
+                          <a href="pyprt">
+                              More<span> →</span>
+                          </a>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            
+          
+        
+          
+            
+            <div class="content  horizontal bottom-margin-100">
+                <div class="half vertical just-centered">
+                    <img class="image-shadow" src="/prts/assets/img/sdk-teaser-image.jpg"/>
+                </div>
+                <div class="half vertical just-centered">
+                    <div class="logo-title">
+                        <img src="/prts/assets/img/sdk.png" class="inline-icon"/>
+                        <div class="vertical">
+                            <h4 class="subtitle3">C++</h4>
+                            <h3 class="subtitle">CityEngine SDK</h3>
+                        </div>
+                    </div>
+                    <p>This is the official site for the SDK of CityEngine, a 3D city modeling software for urban design, visual effects, and VR/AR production.</p>
+                    <a class="link">
+                        <p class="link text">
+                          <a href="cityenginesdk">
+                              More<span> →</span>
+                          </a>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            
+          
+        
         </div>
       </div>
     </section>

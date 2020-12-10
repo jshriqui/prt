@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Vitruvio</title>
-    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Serlio</title>
+    <link rel="stylesheet" href="/prts/assets/css/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="/assets/js/main.js"></script>
+    <script type="text/javascript" src="/prts/assets/js/main.js"></script>
   </head>
   <body>
     <nav class="horizontal center">
@@ -18,7 +18,7 @@
     <div class="subnav darkgrey">
       <div class="subnav-wrapper horizontal stretched">
         <div class="subnav-left">
-          <a class="subnav-title-link vertical " href="/"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
+          <a class="subnav-title-link vertical " href="/prts/"><h2 class="subnav-title">CityEngine Plugins & APIs</h2></a>
           <svg class="menu-dropdown" onclick="openMenu()" xmlns="http://www.w3.org/2000/svg" width="49" height="45" viewBox="0 0 49 45">
             <g id="Group_1" data-name="Group 1" transform="translate(-169 -225)">
               <rect id="Rectangle_1" data-name="Rectangle 1" width="49" height="45" transform="translate(169 225)" fill="rgba(0,0,0,0)"/>
@@ -35,11 +35,11 @@
             
           
             
-              <a class="subnav-link vertical center  " href="serlio"><p class="white">Maya</p></a>
+              <a class="subnav-link vertical center  active" href="serlio"><p class="white">Maya</p></a>
             
           
             
-              <a class="subnav-link vertical center  active" href="vitruvio"><p class="white">Unreal</p></a>
+              <a class="subnav-link vertical center  " href="vitruvio"><p class="white">Unreal</p></a>
             
           
             
@@ -57,15 +57,15 @@
     <section class="hero vertical just-centered">
       <div class="content horizontal flex-grow">
         <div class="third vertical just-centered">
-          <h1 class="hero-text">Vitruvio</h1>
+          <h1 class="hero-text">Serlio</h1>
           <div class="divider"></div>
-          <p>CityEngine Plugin for Unreal Engine</p>
+          <p>Cityengine Plugin for Maya</p>
         </div>
-        <div class="two-third horizontal just-centered aspect">
+        <div class="two-third vertical just-centered aspect">
           
           
           
-            <img class="image-shadow" src="http://localhost:4000/assets/img/pyprt-teaser-image.jpg"/>
+            <img class="image-shadow" src="/prts/assets/img/serlio_ex_1_3.png"/>
           
           
           <!---->
@@ -76,31 +76,27 @@
     <section class="intro-section">
       <div class="content">
         <div class="left-column">
-            <p class="white">Vitruvio is an Unreal Engine 4 (UE4) plugin which enables the use of ArcGIS CityEngine shape grammar rules in UE4 for the generation of procedural buildings.</p>
+            <p class="white">Serlio is a plugin for Autodesk Maya. It provides a modifier node which enables the execution of CityEngine ‘rules’ within a Maya scene. Therefore, a 3D environment artist does not have to leave their familiar Maya toolset anymore to make use of CityEngine’s procedural modeling power.</p>
         </div>
       </div>
     </section>
 
     <section>
       <div class="content vertical">
-        <h2 class="subtitle bottom-margin-70">About Vitruvio</h2>
+        <h2 class="subtitle bottom-margin-70">About Serlio</h2>
         <div class="gallery horizontal">
           
           <div class="third">
-            <img class="image-shadow" src="http://localhost:4000/assets/img/palladio_ex_1_2.jpg"/>
+            <img class="image-shadow" src="/prts/assets/img/serlio_ex_1_2.png"/>
           </div>
           
           <div class="third">
-            <img class="image-shadow" src="http://localhost:4000/assets/img/palladio_ex_2_2.png"/>
-          </div>
-          
-          <div class="third">
-            <img class="image-shadow" src="http://localhost:4000/assets/img/palladio_ex_1_3.jpg"/>
+            <img class="image-shadow" src="/prts/assets/img/serlio_ex_1_1.png"/>
           </div>
           
         </div>
         <div class="two-columns">
-            <p>With Vitruvio, game designers or artists do not have to leave UE4 to make use of CityEngine’s procedural modeling power. The buildings stay procedural all time and artists can change the height, style and appearance of buildings easily with a parametric interface. In addition, buildings can also be generated at runtime.</br>As input Vitruvio requires rule packages (RPK) which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. The download section below provides links to the several RPKs which can be used out-of-the-box in Vitruvio.</p>
+            <p>Complicated export-import pipelines are no longer needed, which also means that the procedural building models do not need to be “baked” anymore. The buildings stay procedural during the entire modeling workflow. Consequently, the 3D environment artist can change the height, style and appearance of buildings easily with a parametric interface at any point during production. </br>Serlio requires so-called rule packages (RPK) as input, which are authored in CityEngine. An RPK includes assets and a CGA rule file which encodes an architectural style. Comprehensive RPK examples are available below and can be used “out-of-the-box” in Serlio.</br> Serlio is well suited for managing the procedural generation of architectural 3D content in digital sets. However, Serlio is restricted to the procedural generation of single buildings / objects. Serlio does not include the city layouting and street network editing tools of CityEngine i.e. the rich CityEngine toolset to design a city from (or based on geographic data) is still needed.</p>
         </div>
       </div>
     </section>
@@ -115,24 +111,24 @@
             <path d="M25 27H8v-1h17zm-3.646-9.646l-.707-.707L17 20.293V5h-1v15.293l-3.646-3.646-.707.707 4.853 4.853z"/><path fill="none" d="M0 0h32v32H0z"/>
           </svg>
           <h3 class="subtitle4 ">Downloads</h3>
-          <p>Link to download soon available.</p>
-          <a href="https://github.com/esri/vitruvio/releases" target="_blank" class="darkblue"></a>
+          <p>Download the latest version of Serlio here.</p>
+          <a href="https://github.com/esri/serlio/releases" target="_blank" class="darkblue">→ Go to downloads</a>
         </div>
         <div class="third">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon-ui-svg" viewBox="0 0 32 32">
             <path d="M15 4h14v1H15zm3 7h11v-1H18zm3 6h8v-1h-8zM3 23h26v-1H3zm0 6h26v-1H3zm11.89-12H16L9.869 3h-.628L3 17h1.11l1.764-4h7.288zm-8.575-5l3.24-7.348L12.73 12z"/>
           </svg>
           <h3 class="subtitle4 ">Documentation</h3>
-          <p>Documentation soon available.</p>
-          <a href="https://github.com/Esri/vitruvio/blob/master/doc/usage.md" target="_blank" class="darkblue"></a>
+          <p>A full documentation of Serlio is available on our Github repository.</p>
+          <a href="https://github.com/esri/serlio/blob/master/README.md#documentation" target="_blank" class="darkblue">→ Read documentation</a>
         </div>
         <div class="third">
           <svg xmlns="http://www.w3.org/2000/svg" class="ui-svg" viewBox="0 0 32 32">
             <path d="M10.687,26.624h0A13.29,13.29,0,0,1,.5,13.764,13.061,13.061,0,0,1,4.455,4.385a13.67,13.67,0,0,1,19.091,0A13.061,13.061,0,0,1,27.5,13.764,13.3,13.3,0,0,1,17.4,26.6V21.37a3.334,3.334,0,0,0-.571-1.873,12.076,12.076,0,0,0,1.575-.323,7.734,7.734,0,0,0,1.509-.589,5.751,5.751,0,0,0,.6-.366,4.947,4.947,0,0,0,.512-.411,4.31,4.31,0,0,0,.427-.453,4.394,4.394,0,0,0,.35-.49,4.943,4.943,0,0,0,.49-1.083,8.148,8.148,0,0,0,.33-2.484,5.93,5.93,0,0,0-.139-1.284,5.518,5.518,0,0,0-1.244-2.451,5.15,5.15,0,0,0-.155-3.58,1.966,1.966,0,0,0-.267-.015A5.518,5.518,0,0,0,17.446,7.34,13.325,13.325,0,0,0,14,6.922a13.284,13.284,0,0,0-3.479.427,5.642,5.642,0,0,0-3.5-1.367H6.951a5.148,5.148,0,0,0-.168,3.544,5.649,5.649,0,0,0-.861,1.29,5.586,5.586,0,0,0-.414,1.2A5.93,5.93,0,0,0,5.369,13.3a8.148,8.148,0,0,0,.33,2.484,4.943,4.943,0,0,0,.49,1.083,4.4,4.4,0,0,0,.35.49,4.31,4.31,0,0,0,.427.453,4.947,4.947,0,0,0,.512.411,5.751,5.751,0,0,0,.6.366,7.734,7.734,0,0,0,1.509.589,12.229,12.229,0,0,0,1.658.334,3.339,3.339,0,0,0-.562,1.818,4.877,4.877,0,0,1-1.615.4c-.047,0-.092,0-.135-.006a3.2,3.2,0,0,1-2.407-1.8A2.231,2.231,0,0,0,4.653,18.9a.812.812,0,0,0-.547.14.139.139,0,0,0-.034.111c.021.16.3.357.568.548a4.526,4.526,0,0,1,.39.3A5.321,5.321,0,0,1,6.2,21.9a3.181,3.181,0,0,0,2.736,1.474,10.3,10.3,0,0,0,1.749-.2v3.446Z"/>
           </svg>
           <h3 class="subtitle4">Documentation</h3>
-          <p>Link to Github repository soon available.</p>
-          <a href="https://github.com/esri/vitruvio/" target="_blank" class="darkblue"></a>
+          <p>For more information, assets and resources check our Github repository.</p>
+          <a href="https://github.com/esri/serlio/" target="_blank" class="darkblue">→ Go to Github</a>
         </div>
       </div>
     </section>
@@ -141,6 +137,23 @@
       <div class="content flex vertical">
         <h2 class="subtitle bottom-margin-70 ">Examples</h2>
         <div flex horizontal>
+        
+          <div class="horizontal bottom-margin-100 example">
+              <div class="half vertical">
+                
+                  <img class="image-shadow bottom-margin-30" src="/prts/assets/img/serlio_ex_1_1.png"/>
+                
+              </div>
+              <div class="half vertical">
+                  <h3 class="subtitle4">Favela Maya Project</h3>
+                  <p class="">The Favela example demonstrates how a complex CityEngine Rule Package (RPK) is applied on one or more polygons. The provided Maya project includes an Alembic file with shapes from CityEngine, the Favela RPK itself and Maya scenes.</br></br><strong>Notes:</strong><ul><li>Requires Maya 2018 or later. </li><li>Based on the <a href="https://www.youtube.com/watch?v=IY5gU1J39Ec" target="_blank">original "Favela" project (YouTube)</a> created with CityEngine, Maya and Maxwell created by Matthias Bühler and Cyrill Oberhänsli. </li><li>v2 released on 2020-06-03 for Serlio v1.1.0</li></ul></p>
+                  
+                    <a class="link bottom-margin-10" href="https://github.com/Esri/serlio/releases/download/v1.1.0/favela_maya_project_v2.zip" target="_blank"><span>→ </span>Favela Maya Project</a>
+                  
+                    <a class="link bottom-margin-10" href="../assets/files/serlio_favela_instructions.txt" target="_blank"><span>→ </span>palladio_angkor_thom_instructions</a>
+                  
+              </div>
+          </div>
         
         </div>
       </div>
@@ -176,14 +189,14 @@
         <h2 class="subtitle bottom-margin-30 ">Legal</h2>
       </div>
       <div class="content vertical center">
-        <p ><ul><li>Vitruvio is under the same license as the included CityEngine SDK.</li><li>An exception is the Vitruvio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul></p>
+        <p ><ul><li>Serlio is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. No redistribution is allowed. </li><li>Serlio is under the same license as the included CityEngine SDK. An exception is the Serlio source code (without CityEngine SDK, binaries, or object code), which is licensed under the Apache License, Version 2.0 (the “License”); you may not use this work except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.</li></ul></p>
         </div>
       </div>
     </section>
 
     <section class="dark footer">
       <div class="content horizontal centered spaced">
-        <p class="white"><a href="">Vitruvio</a> is maintained by <a href="https://github.com/Esri" target="_blank">Esri</a>.</p>
+        <p class="white"><a href="https://github.com/Esri/serlio">Serlio</a> is maintained by <a href="https://github.com/Esri" target="_blank">Esri</a>.</p>
         <p class="white">This page was generated by <a href="https://pages.github.com target="_blank"">GitHub Pages</a>.</p>
       </div>
     </section>

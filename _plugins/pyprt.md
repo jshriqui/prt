@@ -15,9 +15,7 @@ hero-title: PyPRT
 hero-subtitle: Python Bindings for the CityEngine SDK
 hero-content:
   - type: image
-    name: serlio_ex_1_3.png
-
-teaser-image: pyprt-teaser-image.jpg
+    name: pyprt-teaser-image.jpg
 
 description: PyPRT is a Python binding for PRT (“Procedural Runtime”). It enables the execution of CityEngine CGA rules within Python. Using PyPRT, the generation of 3D content in Python is greatly simplified.
 
@@ -49,7 +47,7 @@ examples:
     - title: Link to the example notebook
       link: https://github.com/Esri/pyprt-examples/blob/master/ex7_building_modeling_optimization.ipynb
     - title: ArcGIS Notebooks and Pyprt (Instruction)
-      link: ../assets/files/ArcGIS-Notebooks-and-PyPRT.txt
+      link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
       - image-name: pyprt_ex_1_1.jpg
 
@@ -59,7 +57,7 @@ examples:
     - title: Link to the example notebook
       link: https://github.com/Esri/pyprt-examples/blob/master/ex8_3d_gis_content_generation.ipynb
     - title: ArcGIS Notebooks and Pyprt (Instruction)
-      link: ../assets/files/ArcGIS-Notebooks-and-PyPRT.txt
+      link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
       - image-name: pyprt_ex_2_1.png
 
