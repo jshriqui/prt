@@ -5,6 +5,7 @@ order-of-appearance: 5
 draft: false
 
 name: CityEngineSDK
+title: CityEngine C++ SDK
 platform: C++
 logo: sdk.png
 github: https://github.com/Esri/cityengine-sdk

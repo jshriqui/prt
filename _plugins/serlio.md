@@ -5,6 +5,7 @@ order-of-appearance: 2
 draft: false
 
 name: Serlio
+title: Serlio - Plugin for Maya
 platform: Maya
 logo: serlio.png
 github: https://github.com/Esri/serlio

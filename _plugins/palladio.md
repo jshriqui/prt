@@ -5,6 +5,7 @@ order-of-appearance: 1
 draft: false
 
 name: Palladio
+title: Palladio - Plugin for Houdini
 platform: Houdini
 logo: palladio.png
 github: https://github.com/Esri/palladio

@@ -5,6 +5,7 @@ order-of-appearance: 4
 draft: false
 
 name: PyPRT
+title: PyPRT - Python Bindings for PRT
 platform: Python
 logo: pyprt.png
 github: https://github.com/Esri/pyprt

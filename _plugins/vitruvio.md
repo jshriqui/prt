@@ -5,6 +5,7 @@ order-of-appearance: 3
 draft: false
 
 name: Vitruvio
+title: Vitruvio - Plugin for Unreal Engine
 platform: Unreal
 logo: vitruvio.png
 github: https://github.com/Esri/vitruvio
