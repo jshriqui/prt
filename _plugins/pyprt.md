@@ -4,7 +4,7 @@ fullpreview: true
 order-of-appearance: 4
 draft: false
 
-name: PyPrt
+name: PyPRT
 platform: Python
 logo: pyprt.png
 github: https://github.com/Esri/pyprt
