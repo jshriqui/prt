@@ -20,7 +20,7 @@ hero-content:
 description: Palladio is a plugin for SideFX Houdini. It provides operator nodes which enable the execution of CityEngine ‘rules’ within Houdini networks. Therefore, a 3D environment artist does not have to leave their familiar Houdini toolset anymore to make use of CityEngine’s procedural modeling power.
 
 gallery:
-- image: palladio_ex_1_4.jpg
+- image: palladio_ex_1_4.png
 - image: palladio_ex_2_2.png
 - image: palladio_ex_1_3.jpg
 
