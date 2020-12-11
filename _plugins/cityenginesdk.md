@@ -39,7 +39,7 @@ ressource-2-link-url: https://github.com/Esri/palladio/blob/master/README.md#doc
 ressource-3-title: Github
 ressource-3-text: For more information, assets and resources check our Github repository.
 ressource-3-link-text: → Go to Github
-ressource-3-link-url: https://github.com/esri/palladio/
+ressource-3-link-url: https://github.com/esri/cityengine-sdk
 
 
 legal: <ul><li>Copyright (c) 2020 Esri</li><li>You may not use the content of this repository except in compliance with the following Licenses&colon;</li><li>All content in the "examples" directory tree is licensed under the APACHE 2.0 license. You may obtain a copy of this license at http://www.apache.org/licenses/LICENSE-2.0.</li><li>All other content is licensed under the Esri Terms of Use (also see Product-Specific Terms of Use).</li></ul>

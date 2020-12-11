@@ -7,7 +7,7 @@ draft: false
 name: Vitruvio
 platform: Unreal
 logo: vitruvio.png
-github:
+github: https://github.com/Esri/vitruvio
 
 teaser-image: vitruvio_teaser_image.jpg
 
@@ -32,14 +32,14 @@ ressource-1-link-text:
 ressource-1-link-url: https://github.com/esri/vitruvio/releases
 
 ressource-2-title: Documentation
-ressource-2-text: Documentation soon available.
-ressource-2-link-text:
+ressource-2-text: A full documentation of Vitruvio is available on our github repository.
+ressource-2-link-text: → Read documentation
 ressource-2-link-url: https://github.com/Esri/vitruvio/blob/master/doc/usage.md
 
 ressource-3-title: Github
-ressource-3-text: Link to Github repository soon available.
-ressource-3-link-text:
-ressource-3-link-url: https://github.com/esri/vitruvio/
+ressource-3-text: For more information, assets and resources check our Github repository.
+ressource-3-link-text: → Go to Github
+ressource-3-link-url: https://github.com/Esri/vitruvio
 
 examples:
 
