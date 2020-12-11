@@ -26,6 +26,8 @@ introduction: Python developers, data scientists, GIS analysts, etc. can efficie
 
 ressource-1-title: Installation
 ressource-1-text: Simply run <code class="language-plaintext highlighter-rouge">pip install pyprt</code> in your desired Python environment or <code class="language-plaintext highlighter-rouge">conda install -c esri pyprt</code> in a Conda environment. Then use <code class="language-plaintext highlighter-rouge">import pyprt</code> in your scripts.
+ressource-2-link-text: → Installation instructions
+ressource-2-link-url: https://github.com/Esri/pyprt/blob/master/README.md#installation
 
 ressource-2-title: Documentation
 ressource-2-text: A full documentation of PyPRT is available on our github repository.
@@ -46,7 +48,7 @@ examples:
     files:
     - title: Link to the example notebook
       link: https://github.com/Esri/pyprt-examples/blob/master/ex7_building_modeling_optimization.ipynb
-    - title: ArcGIS Notebooks and Pyprt (Instruction)
+    - title: ArcGIS Notebooks and PyPRT (Instruction)
       link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
       - image-name: pyprt_ex_1_1.jpg
@@ -56,7 +58,7 @@ examples:
     files:
     - title: Link to the example notebook
       link: https://github.com/Esri/pyprt-examples/blob/master/ex8_3d_gis_content_generation.ipynb
-    - title: ArcGIS Notebooks and Pyprt (Instruction)
+    - title: ArcGIS Notebooks and PyPRT (Instruction)
       link: ./assets/files/ArcGIS-Notebooks-and-PyPRT.txt
     images:
       - image-name: pyprt_ex_2_1.png
