@@ -41,6 +41,18 @@ ressource-3-text: For more information, assets and resources check our Github re
 ressource-3-link-text: → Go to Github
 ressource-3-link-url: https://github.com/esri/cityengine-sdk
 
+examples:
+
+  - title: CiteEngine SDK Examples
+    text: This repository contains a number of source code examples in the "examples" directory. Each example contains a README with detailed instructions how to build and use it:<ul><li>prt4cmd&colon; a simple command line utility to apply rule packages onto initial shapes and generate models.</li><li>stlenc&colon; demonstrates how to write a custom encoder, in this case for the STL geometry format.</li>stldec&colon; demonstrates how to write a custom decoder for the STL geometry format.</li></ul>
+
+    files:
+      - title: Example Folder
+        link: https://github.com/Esri/cityengine-sdk/tree/master/examples
+
+    images:
+      - image-name: cityengine_ex_1_1.png
+
 
 legal: <ul><li>Copyright (c) 2020 Esri</li><li>You may not use the content of this repository except in compliance with the following Licenses&colon;</li><li>All content in the "examples" directory tree is licensed under the APACHE 2.0 license. You may obtain a copy of this license at http://www.apache.org/licenses/LICENSE-2.0.</li><li>All other content is licensed under the Esri Terms of Use (also see Product-Specific Terms of Use).</li></ul>
 ---
