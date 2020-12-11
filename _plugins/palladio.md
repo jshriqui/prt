@@ -55,7 +55,7 @@ examples:
         link: ./assets/files/palladio_angkor_thom_instructions.txt
 
     images:
-      - image-name: palladio_ex_1_4.jpg
+      - image-name: palladio_ex_1_4.png
 
 
   - title: Favela
