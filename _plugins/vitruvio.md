@@ -43,7 +43,7 @@ ressource-3-link-url: https://github.com/Esri/vitruvio
 
 examples:
 
-  - title: Medievil City
+  - title: Medieval City
     text: This example features buildings in a European medieval style. The rules are from the Medieval City example of CityEngine.
     images:
       - image-name: vitruvio_ex_1_1.jpg
