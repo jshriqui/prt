@@ -9,18 +9,18 @@ platform: Houdini
 logo: palladio.png
 github: https://github.com/Esri/palladio
 
-teaser-image: palladio_ex_5_1.jpg
+teaser-image: palladio_teaser_image.png
 
 hero-title: Palladio
 hero-subtitle: CityEngine Plugin for Houdini
 hero-content:
-  - type: video
-    name: rOH_oZ1doLU
+  - type: image
+    name: palladio_teaser_image.png
 
 description: Palladio is a plugin for SideFX Houdini. It provides operator nodes which enable the execution of CityEngine ‘rules’ within Houdini networks. Therefore, a 3D environment artist does not have to leave their familiar Houdini toolset anymore to make use of CityEngine’s procedural modeling power.
 
 gallery:
-- image: palladio_ex_1_2.jpg
+- image: palladio_ex_1_4.jpg
 - image: palladio_ex_2_2.png
 - image: palladio_ex_1_3.jpg
 
