@@ -44,7 +44,7 @@ ressource-3-link-url: https://github.com/esri/cityengine-sdk
 examples:
 
   - title: CiteEngine SDK Examples
-    text: This repository contains a number of source code examples in the "examples" directory. Each example contains a README with detailed instructions how to build and use it:<ul><li>prt4cmd&colon; a simple command line utility to apply rule packages onto initial shapes and generate models.</li><li>stlenc&colon; demonstrates how to write a custom encoder, in this case for the STL geometry format.</li>stldec&colon; demonstrates how to write a custom decoder for the STL geometry format.</li></ul>
+    text: This repository contains a number of source code examples in the "examples" directory. Each example contains a README with detailed instructions how to build and use it:<ul><li>prt4cmd&colon; a simple command line utility to apply rule packages onto initial shapes and generate models.</li><li>stlenc&colon; demonstrates how to write a custom encoder, in this case for the STL geometry format.</li><li>stldec&colon; demonstrates how to write a custom decoder for the STL geometry format.</li></ul>
 
     files:
       - title: Example Folder
