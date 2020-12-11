@@ -13,16 +13,16 @@ hero-title: CityEngine SDK
 hero-subtitle: Procedural Runtime for C++
 hero-content:
   - type: image
-    name: sdk-teaser-image.jpg
+    name: cityengine_teaser_image.png
 
-teaser-image: sdk-teaser-image.jpg
+teaser-image: cityengine_teaser_image.png
 
 description: This is the official site for the SDK of CityEngine, a 3D city modeling software for urban design, visual effects, and VR/AR production.
 
 gallery:
-- image: sdk-teaser-image.jpg
-- image: sdk-teaser-image.jpg
-- image: sdk-teaser-image.jpg
+- image: cityengine_gallery_1.png
+- image: cityengine_gallery_2.png
+- image: cityengine_gallery_3.png
 
 introduction: The CityEngine SDK can be used for the development of custom importers and exporters for CityEngine, or for 3D apps which need a procedural geometry engine.</br>For the usecase of custom importers and exporters for CityEngine, this means the SDK enables you to develop CityEngine plugins to read or write additional 3D and image formats or your own proprietary 3D data format. A simple use case example is 3D printing where the STL geometry format is often needed. STL support is not provided out-of-the-box in CityEngine, but you can develop your own STL exporter as described below.</br>For the other usecase, the core of CityEngine is its unique geometry generation engine, called Procedural Runtime (PRT). PRT takes as input an initial geometry and then applies a given rule package (= CGA rules authored in CityEngine) to generate more detailed 3D geometry as output. For example, PRT can generate - based on given rules - a 3D model of a building out of a parcel polygon. With the SDK you can integrate PRT in your own 3D applications taking full advantage of the procedural geometry generation without running CityEngine. An interesting use case example is Palladio, a plugin for SideFX’s Houdini software. Palladio includes PRT and therefore extends Houdini with the procedural geometry engine of CityEngine. Another use case example could be a specific cultural heritage 3D application which automatically generates detailed 3D models of temples based on input attributes.</br>The CityEngine SDK is free for non-commercial use. Commercial use requires at least one commercial license of the latest CityEngine version installed in the organization. Please refer to the licensing section below for more detailed licensing information.
 
