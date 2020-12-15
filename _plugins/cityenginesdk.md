@@ -13,8 +13,8 @@ github: https://github.com/Esri/cityengine-sdk
 hero-title: CityEngine SDK
 hero-subtitle: C++ APIs, Documentation and Examples for the Procedural Runtime (PRT)
 hero-content:
-  - type: image
-    name: cityengine_teaser_image.png
+  - type: video
+    name: rOH_oZ1doLU
 
 teaser-image: cityengine_teaser_image.png
 
